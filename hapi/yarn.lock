@@ -2630,7 +2630,7 @@ fsevents@~2.3.1:
     husky: 4.3.8
     ipfs-http-client: ^49.0.4
     joi: ^17.4.0
-    jsonwebtoken: ^8.5.1
+    jsonwebtoken: ^9.0.0
     lint-staged: ^10.5.4
     node-fetch: ^2.6.1
     nodemailer: ^6.5.0
@@ -3720,6 +3720,18 @@ fsevents@~2.3.1:
     ms: ^2.1.1
     semver: ^5.6.0
   checksum: ea44bbb7a7abab87eee57711a04093a2a04a5757faa3253f521327b840e07eff751986ed6c20985886c5aaa86245a833aa1eeda6eacb0c3fa9ea4e7074cdb0c3
+  languageName: node
+  linkType: hard
+
+"jsonwebtoken@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "jsonwebtoken@npm:9.0.0"
+  dependencies:
+    jws: ^3.2.2
+    lodash: ^4.17.21
+    ms: ^2.1.1
+    semver: ^7.3.8
+  checksum: 8b2f16708501d17b56e2a12941a0a8963dbdcda4ea5f8329e2bf1ce235e0dc546e2b7ef0c28ba941e7bda3a2b4ee8b3838e6d8c10c269be4dbee8ca1b744c310
   languageName: node
   linkType: hard
 
@@ -5492,6 +5504,17 @@ fsevents@~2.3.1:
   bin:
     semver: bin/semver.js
   checksum: c53624ddf4b9779bcbf55a1eb8b37074cc44bfeca416f3cc263429408202a8a3c59b00eef8c647d697303bc39b95c022a5c61959221d3814bfb1270ff7c14986
+  languageName: node
+  linkType: hard
+
+"semver@npm:^7.3.8":
+  version: 7.3.8
+  resolution: "semver@npm:7.3.8"
+  dependencies:
+    lru-cache: ^6.0.0
+  bin:
+    semver: bin/semver.js
+  checksum: cfb9c2101dae4ee93c415471f48797c750174d65def4e06ff691bf910194cc6ca92793e597be8302175ceb640100a3da36451e7656320da53b51167eeaf11eb5
   languageName: node
   linkType: hard
 
